@@ -13,5 +13,5 @@ variable "permissions_list" {
     aws_accounts     = list(string)
     sso_groups       = list(string)
   }))
-  description = "List of permission set properties"
+  description = "List of permission set properties "
 }
